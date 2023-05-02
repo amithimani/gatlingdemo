@@ -30,7 +30,8 @@ The demo Gatling test class is located in the `src/test/scala/com/example/Gatlin
 To run the demo test, you can use the following command:
 
 ```
-./gradlew gatlingRun
+ mvn gatling:test -Dgatling.skip=false -Dgatling.simulationClass=basic.ApiGatlingSimulationTest
+
 ```
 
 This will start the Gatling test runner and execute the demo test. The test results will be displayed in the console and a detailed HTML report will be generated in the `build/reports/gatling` directory.
