@@ -1,11 +1,8 @@
-# gatlingdemo
-Sure, here's a sample README file for a project that includes a Gatling endpoint and a demo test class:
-
-# Project Name
+# Project name: gatlingdemo
 
 This project provides a sample implementation of a Gatling endpoint and a demo Gatling test class.
 
-## Gatling Endpoint
+## Rest Endpoint
 
 The Gatling endpoint is implemented as a simple REST API that returns a random number with a random delay. The endpoint can be accessed using the following URL:
 
