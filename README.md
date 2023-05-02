@@ -21,7 +21,7 @@ The response format is JSON and looks like this:
 }
 ```
 
-The `randomNumber` field contains a random integer between 1 and 100, and the `delayMillis` field contains a random time delay between 100 and 1000 milliseconds.
+The `randomNumber` field contains a random integer between 1 and 100000, and the `delayMillis` field contains a random time delay between 100 and 1000 milliseconds.
 
 ## Gatling Demo Test Class
 
@@ -40,8 +40,8 @@ This will start the Gatling test runner and execute the demo test. The test resu
 
 This project uses the following dependencies:
 
-- Spring Boot 2.5.0
-- Gatling 3.6.1
+- Spring Boot 3.x
+- Gatling 3.9.x
 
 ## License
 
